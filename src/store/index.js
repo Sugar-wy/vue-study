@@ -7,7 +7,7 @@ export default new Vuex.Store({
     state:{
         count:0,
     },
-    // 只有 mutations 中的方法才有权利修改 state 中的数据
+    // 只有 mutations 中的方法才有权利修改 state 中的数据(烦死了)
     mutations:{
         // 不要在 mutations 函数中执行异步操作(例如settimeout)
         // 这个地方是使用同步数据的
